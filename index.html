@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李睿的学习笔记 - 首页</title>
+    <style>
+        /* 简单的 CSS 重置和样式，确保页面整洁 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #2c3e50;
+        }
+
+        .container {
+            flex: 1;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .intro-card {
+            background: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.02);
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        /* 备案要求的底部样式 - 极其重要 */
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #999;
+            background-color: #fff;
+            border-top: 1px solid #eee;
+        }
+
+        footer a {
+            color: #999;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>李睿的学习笔记</h1>
+    </header>
+
+    <div class="container">
+        <div class="intro-card">
+            <h2>欢迎访问</h2>
+            <p>
+                这里是李睿的个人技术博客。主要用于记录计算机科学学习过程中的心得体会、算法研究以及开发日常。<br>
+                网站目前正在建设与维护中，更多优质内容即将上线，敬请期待。
+            </p>
+            
+            <div class="categories">
+                <span class="tag">C++ 编程</span>
+                <span class="tag">算法与数据结构</span>
+                <span class="tag">计算机系统</span>
+                <span class="tag">学习随笔</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2026 李睿的学习笔记 All Rights Reserved.</p>
+        <p>
+            <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2026008130号-1</a>
+        </p>
+    </footer>
+
+</body>
+</html>
