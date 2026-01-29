@@ -81,6 +81,10 @@
             border-top: 1px solid #eee;
         }
 
+        footer p {
+            margin: 5px 0; /* 调整段落间距，让两行备案号紧凑一些 */
+        }
+
         footer a {
             color: #999;
             text-decoration: none;
@@ -118,9 +122,17 @@
 
     <footer>
         <p>Copyright © 2026 李睿的学习笔记 All Rights Reserved.</p>
-        <p>
+        
+        <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px; margin-top: 10px;">
+            
             <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2026008130号-1</a>
-        </p>
+
+            <a href="https://beian.mps.gov.cn/#/query/webSearch?code=44011702000921" rel="noreferrer" target="_blank" style="display: inline-flex; align-items: center;">
+                <img src="beian.png" alt="" style="width: 20px; height: 20px; margin-right: 5px;">
+                <span>粤公网安备44011702000921号</span>
+            </a>
+            
+        </div>
     </footer>
 
 </body>
